@@ -5,7 +5,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl",
 
 git_repository(
     name = "io_bazel_rules_scala",
-    remote = "https://github.com/bazelbuild/rules_scala",
+    remote = "https://github.com/gmishkin/rules_scala",
     commit = "6c2df00ba0c8c5d1a57547c61e03a90c06e6af9e" # gmishkin portable-classpath
 )
 
